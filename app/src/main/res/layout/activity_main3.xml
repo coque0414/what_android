@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <View
+        android:id="@+id/vector"
+        android:layout_width="316dp"
+        android:layout_height="720dp"
+        android:background="@drawable/vector"
+        />
+
+    <View
+        android:id="@+id/dashboard"
+        android:layout_width="375dp"
+        android:layout_height="812dp"
+        />
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/activity_tr"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clipToOutline="true"
+        android:background="@drawable/activity_tr"
+        />
+    <View
+        android:id="@+id/progress_se"
+        android:layout_width="316dp"
+        android:layout_height="245dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="271dp"
+        />
+    <View
+        android:id="@+id/bg"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        />
+
+
+
+    <View
+        android:id="@+id/day"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        />
+
+
+
+    <View
+        android:id="@+id/sun_line"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        />
+
+
+
+    <View
+        android:id="@+id/mon_line"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        />
+
+
+
+    <View
+        android:id="@+id/tue_line"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        />
+
+
+
+    <View
+        android:id="@+id/wed_line"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        />
+
+
+
+    <View
+        android:id="@+id/thus_line"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        />
+
+
+
+    <View
+        android:id="@+id/fri_line"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        />
+
+
+
+    <View
+        android:id="@+id/sat_line"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        />
+    <View
+        android:id="@+id/activity_te"
+        android:layout_width="315dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="271dp"
+        />
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/banner"
+        android:layout_width="315dp"
+        android:layout_height="139dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="102dp"
+        />
+
+    <View
+        android:id="@+id/latest_acti"
+        android:layout_width="315dp"
+        android:layout_height="214dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="546dp"
+        />
+
+    <View
+        android:id="@+id/header"
+        android:layout_width="315dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        />
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
